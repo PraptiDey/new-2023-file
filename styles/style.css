@@ -1,0 +1,58 @@
+.container{
+    display: grid;
+    grid-template-columns:100px repeat(4, 1fr);
+    grid-template-rows: 250px 150px 200px 350px;
+    gap: 15px;
+    padding: 15px;
+}
+.sidebar{
+    grid-row: 1/-1;
+    border: 1px solid blueviolet;
+    background-color: blueviolet;
+    border-radius: 10px;
+    text-align: center;
+}
+.header{
+    grid-column: 2/-1;
+    background-color: gray;
+    border-radius: 5px;
+    text-align: center;
+}
+.chart-one{
+    grid-column: 2/4;
+    background-color: gray;
+    border-radius: 5px;
+    text-align: center;
+}
+.chart-two{
+grid-column: 4/-1;
+background-color: gray;
+border-radius: 5px;
+text-align: center;
+}
+.overview{
+    grid-column: 2/5;
+    background-color: gray;
+    border-radius: 5px;
+    text-align: center;
+}
+.stat-one{
+background-color: gray;
+text-align: center;
+}
+.stat-two{
+    background-color: gray;
+    text-align: center;
+}
+.stat-three{
+    background-color: gray;
+    text-align: center;
+}
+.stat-four{
+    background-color: gray;
+    text-align: center;
+}
+.reminder{
+    background-color: gray;
+    text-align: center;
+}
