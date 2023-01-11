@@ -9,7 +9,7 @@
     grid-row: 1/-1;
     border: 1px solid blueviolet;
     background-color: blueviolet;
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: center;
 }
 .header{
@@ -39,20 +39,25 @@ text-align: center;
 .stat-one{
 background-color: gray;
 text-align: center;
+border-radius: 5px;
 }
 .stat-two{
     background-color: gray;
     text-align: center;
+    border-radius: 5px;
 }
 .stat-three{
     background-color: gray;
     text-align: center;
+    border-radius: 5px;
 }
 .stat-four{
     background-color: gray;
     text-align: center;
+    border-radius: 5px;
 }
 .reminder{
     background-color: gray;
     text-align: center;
+    border-radius: 5px;
 }
